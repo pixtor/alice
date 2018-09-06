@@ -13,7 +13,7 @@ module.exports = async req => {
         returnText = 'Андрей лучший проджект в мире, даже лучше Илона Маска. Алиса точно в этом уверена';
     }
     if(~request.original_utterance.indexOf('тимур')){
-        returnText = 'Просто лучший';
+        returnText = 'Просто лучший Тимер';
     }
 
     return {
