@@ -16,9 +16,6 @@ module.exports = async req => {
         returnText = 'Просто лучший';
     }
 
-    var timer = true;
-    var tree = true;
-
     return {
         version,
         session,
