@@ -15,6 +15,7 @@ module.exports = async req => {
     if(~request.original_utterance.indexOf('тимур')){
         returnText = 'Просто лучший Тимер';
     }
+    var timer = 1;
 
     return {
         version,
